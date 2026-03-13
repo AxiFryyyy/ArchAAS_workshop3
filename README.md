@@ -18,15 +18,15 @@ The system is built for the Workshop 3 assignment and showcases:
 
 ### 2. Setup & Run
 
-From the `3-workshop` directory:
+From the project root:
 
-1. Make sure dependencies are installed (shared with the main workshop):
+1. Install dependencies:
 
 ```bash
 uv sync
 ```
 
-2. Set your OpenAI API key. Create a `.env` file **inside `my_workshop3`** (copy from `my_workshop3/.env.example`), then set:
+2. Set your OpenAI API key. Create a `.env` file in the project root (copy from `.env.example`), then set:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
@@ -35,7 +35,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 3. Run the smart triage system:
 
 ```bash
-uv run python my_workshop3/main.py
+uv run python main.py
 ```
 
 4. When prompted, paste a realistic customer ticket in English, for example:

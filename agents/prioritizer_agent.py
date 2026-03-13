@@ -5,7 +5,7 @@ Priority evaluation specialist (Prioritizer agent).
 from typing import Dict, Any
 
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 
 from state import State
 from tools import analyze_keywords, sla_rules_lookup

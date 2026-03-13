@@ -5,7 +5,7 @@ Ticket classification specialist (Classifier agent).
 from typing import Dict, Any
 
 from langchain_openai import ChatOpenAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 
 from state import State
 from tools import analyze_keywords, history_stats
