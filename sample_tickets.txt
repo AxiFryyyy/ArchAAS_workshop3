@@ -1,0 +1,52 @@
+# Sample Customer Support Tickets for Smart Triage Demo
+# Copy any block below and paste when the program asks for a ticket description.
+
+# ------------------------------------------------------------------------------
+# 1. TECHNICAL + HIGH URGENCY (login/500 error, whole team blocked)
+# ------------------------------------------------------------------------------
+Our entire team cannot log in to the dashboard since this morning. It shows a 500 error after we enter our credentials. This is blocking our work. Please fix this as soon as possible.
+
+# ------------------------------------------------------------------------------
+# 2. BILLING (double charge, refund request)
+# ------------------------------------------------------------------------------
+I was charged twice for my subscription last month. I only signed up once but my credit card shows two identical payments. I need a refund for the duplicate charge. Can you look into this?
+
+# ------------------------------------------------------------------------------
+# 3. ACCOUNT ACCESS (password reset, locked out)
+# ------------------------------------------------------------------------------
+I forgot my password and the reset link is not working. I tried three times and it says "link expired" every time. I am locked out of my account and need to access my project files urgently.
+
+# ------------------------------------------------------------------------------
+# 4. FEATURE REQUEST (low priority)
+# ------------------------------------------------------------------------------
+It would be great if you could add dark mode to the app. Many of us work at night and the current bright theme is hard on the eyes. Also would love to see an option to export reports as PDF. Thanks for considering!
+
+# ------------------------------------------------------------------------------
+# 5. TECHNICAL + SYSTEM-WIDE (outage-style)
+# ------------------------------------------------------------------------------
+The API is down for everyone in our company. We are getting timeouts on all requests since 2 hours ago. Our production environment is affected and we have multiple customers complaining. This is critical – we need an immediate response.
+
+# ------------------------------------------------------------------------------
+# 6. GENERAL INQUIRY
+# ------------------------------------------------------------------------------
+Hi, I wanted to ask whether your enterprise plan includes dedicated support and what the SLA is for response times. We are evaluating vendors for next quarter.
+
+# ------------------------------------------------------------------------------
+# 7. BILLING + URGENT (wrong amount, high value)
+# ------------------------------------------------------------------------------
+We were overcharged by thousands of dollars on our last invoice. The amount does not match our contract. We need this corrected urgently before our finance team closes the books this week.
+
+# ------------------------------------------------------------------------------
+# 8. ACCOUNT ACCESS (suspended account)
+# ------------------------------------------------------------------------------
+My account was suspended and I don't know why. I didn't receive any email explaining the reason. I need to get back in to download our data. Please advise.
+
+# ------------------------------------------------------------------------------
+# 9. TECHNICAL (single user, bug)
+# ------------------------------------------------------------------------------
+The app keeps crashing when I open a large file. I'm on the latest version. It works for smaller files but anything over 50MB causes an error. Can you fix this bug?
+
+# ------------------------------------------------------------------------------
+# 10. MIXED (login issue + multiple users)
+# ------------------------------------------------------------------------------
+Several people on my team are unable to sign in today. We get an error message saying "verification failed" after entering the OTP. This started happening after your last update. We need access to complete a client deliverable.
