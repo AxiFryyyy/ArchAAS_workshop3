@@ -16,7 +16,20 @@ The system is built for the Workshop 3 assignment and showcases:
 4. The **Triage Summarizer agent** produces a human‑readable summary and recommends a routing queue (e.g. Billing Team, Tech Support).
 5. The orchestrator coordinates these steps until the triage is complete.
 
-### 2. Setup & Run
+### 2. Tool Access Control
+
+Each agent has access only to the tools it needs for its role; other tools are not exposed to that agent.
+
+| Agent | Tools allowed | Purpose |
+|-------|----------------|---------|
+| **Classifier** | `analyze_keywords`, `history_stats` | Category signals and similar-ticket context for classification. |
+| **Prioritizer** | `analyze_keywords`, `sla_rules_lookup` | Urgency/impact signals and SLA rules for priority and response time. |
+| **Triage Summarizer** | *(none)* | Uses only shared state (classification + priority); no tool calls. |
+| **Orchestrator** | *(none)* | Rule-based routing only; no tools. |
+
+So the **Classifier** cannot call SLA rules; the **Prioritizer** cannot call history stats; and the **Summarizer** has no tool access—ensuring clear separation of concerns and tool access control.
+
+### 3. Setup & Run
 
 From the project root:
 
@@ -48,7 +61,7 @@ Please fix this as soon as possible.
 
 The system will print the classifier and prioritizer decisions, then show a final **TRIAGE SUMMARY** section.
 
-### 3. Files Overview
+### 4. Files Overview
 
 - `main.py`: builds and runs the LangGraph workflow for triage.
 - `state.py`: defines shared state (ticket text, classification, priority, routing, messages, next_step).
